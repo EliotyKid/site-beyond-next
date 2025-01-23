@@ -1,7 +1,13 @@
+import Fragment from "./components/Fragment";
+import Hero from "./components/Hero";
+import Mission from "./components/Mission";
+
 export default function Home() {
   return (
     <div>
-      <h1></h1>
+      <Hero/>
+      <Mission/>
+      <Fragment/>
     </div>
   );
 }
